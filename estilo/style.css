@@ -25,6 +25,30 @@ body{
     font-family: var(--fonte-destaque);
 }
 
+div.foto{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+
+}
+
+div#f1{
+
+}
+
+div#f2{
+    
+}
+
+
+div#f3{
+    
+}
+
+
 header{
     color: white;
     font-family: var(--fonte-padrao);
@@ -109,7 +133,7 @@ aside{
 aside > ul{
     padding: 15px;
     list-style-position: inside;
-    columns: 2;
+    columns: 4;
 }
 
 aside > h3{
@@ -119,6 +143,7 @@ aside > h3{
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+    text-align: center;
 }
 
 footer{
